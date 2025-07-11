@@ -15,10 +15,8 @@ class SignupPage(BasePage):
     DAY_DROPDOWN = (By.ID, "days")
     MONTH_DROPDOWN = (By.ID, "months")
     YEAR_DROPDOWN = (By.ID, "years")
-
     NEWSLETTER_CHECKBOX = (By.ID, "newsletter")
     OFFERS_CHECKBOX = (By.ID, "optin")
-
     FIRST_NAME = (By.ID, "first_name")
     LAST_NAME = (By.ID, "last_name")
     COMPANY = (By.ID, "company")
